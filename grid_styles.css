@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    text-align: start;
+}
+
+h1 {
+    background-color: rgb(255, 0, 0);
+    padding: 9px;
+    border-radius: 16px;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Titan One";
+    font-weight: 100;
+    position: relative;
+}
+
+.ss_button {
+    color: white;
+    text-align: end;
+    display: inline;
+    align-items: end;
+    position: relative;
+    border: 5px;
+    border-color: white;
+    background-color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+h5 {
+    font-family: "Roboto Slab";
+    color: white;
+    justify-content: center;
+    font-size: larger;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+.placeholder {
+    opacity: 0;
+}
+
+.gameplay {
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 0;
+    position: relative;
+    left: 0;
+    width: 251px;
+    height: auto;
+
+}
+
+.gameplay_img {
+    width: 251px;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.gameplay_vid {
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+    height: 250px;
+    width: 250px;
+}
+
+.button {
+    background-color: none;
+    border-color: white;
+    width: 42px;
+    height: auto;
+    margin: 7px;
+    align-items: baseline;
+    padding: 10px;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.car_list {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.practic_info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.grid_cover {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}

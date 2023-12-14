@@ -1,0 +1,44 @@
+.brands {
+    color: black;
+    font-family: "Titan One";
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 7em;
+    height: 10em;
+    border: 1px solid lightgray;
+    margin-top: 1rem;
+    border-radius: 5px;
+    align-items: center;
+    transition: all 0.25s ease-in-out;
+    background-color: white;
+}
+
+.brands img {
+    max-height: 5em;
+    max-width: 6em;
+}
+
+.brand_button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    gap: .5em;
+    margin-left: 400px;
+}
+
+.car_brands {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    display: flex;
+    position: relative;
+}
+
+.car_list {
+    font-family: "Titan One";
+}
